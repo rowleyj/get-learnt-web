@@ -13,6 +13,13 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .hide-mobile {
+    display: none;
+    /* visibility: hidden; */
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
